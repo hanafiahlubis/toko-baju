@@ -89,6 +89,7 @@
         <div class="hpanel">
           <div class="panel-body">
             <form action="ceklogin.php" method="post" name="login" id="loginForm">
+
               <div class="form-group">
                 <label class="control-label" for="username">Username</label>
                 <input type="text" name="username" placeholder="example@gmail.com" title="Please enter you username" required value="" name="username" id="username" class="form-control">
@@ -105,7 +106,7 @@
                 <p class="help-block small">(if this is a private computer)</p>
               </div>
               <button class="btn btn-success btn-block loginbtn">Login</button>
-              <a class="btn btn-default btn-block" href="#">Register</a>
+              <a class="btn btn-default btn-block" href="./register.php">Register</a>
             </form>
           </div>
         </div>

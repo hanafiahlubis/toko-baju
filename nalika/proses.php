@@ -1,11 +1,13 @@
 <?php
-require "koneksi.php";
-$username = $_POST['username'];
-$password = $_POST['password'];
+require "koneksi-database.php";
+$name = $_POST['name'];
 $email = $_POST['email'];
+$password = $_POST['password'];
+$username = $_POST['username'];
 
-$aksi = $_GET['aksi'];
 
-mysqli_query($con, "insert into user_pembeli values ('NULL','$username','$password','$email')");
+mysqli_query($con, "insert into user_pembeli values ('NULL','$name','$email','$username','$password')");
 
-header("location:index.php?err=$kodeerror");
+echo "dsahdhasuidas";
+
+header("location:login.php");

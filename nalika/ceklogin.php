@@ -10,9 +10,7 @@
 		$tdata = mysqli_fetch_array($qcekdata);
 		$_SESSION['nama_user123'] = $tdata['user_admin'];
 		$_SESSION['kata_kunci123'] = $tdata['pass_admin'];
-		// $_SESSION['nama_lengkap'] = $tdata['nama_lengkap'];
-		// header("location:index2.php");
-        echo "Berhasil horeh";
+		header("location:index.php");
     } else
 	{
 		header("location:login.php");

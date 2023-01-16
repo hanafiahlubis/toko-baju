@@ -91,25 +91,22 @@
               <div class="row">
                 <div class="form-group col-lg-12">
                   <label>Name</label>
-                  <input name="username" class="form-control" required>
+                  <input name="name" class="form-control" required>
                 </div>
-
-
                 <div class="form-group col-lg-12">
                   <label>Email Address</label>
-                  <input class="form-control" name="email" require>
+                  <input class="form-control" name="email" required type="email">
                 </div>
                 <div class="form-group col-lg-6">
                   <label>Username</label>
                   <input name="username" class="form-control" required>
-
                 </div>
                 <div class="form-group col-lg-6">
                   <label>Password</label>
                   <input type="password" name="password" class="form-control" required>
                 </div>
                 <div class="checkbox col-lg-12">
-                  <input type="checkbox" class="i-checks" required checked> Sigh up for our newsletter
+                  <input type="checkbox" class="i-checks" required> Sigh up for our newsletter
                 </div>
               </div>
               <div class="text-center">

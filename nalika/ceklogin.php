@@ -3,7 +3,7 @@
 	require "koneksi-database.php";
 	$nama_user = $_POST['username'];
 	$kata_kunci = $_POST['password'];
-	$qcekdata = mysqli_query($con,"select * from admin_toko q    where user_admin = '$nama_user' and pass_admin = '$kata_kunci'");
+	$qcekdata = mysqli_query($con,"select * from admin_toko where user_admin = '$nama_user' and pass_admin = '$kata_kunci'");
 	$ada = mysqli_num_rows($qcekdata);
 	if ($ada > 0)
 	{

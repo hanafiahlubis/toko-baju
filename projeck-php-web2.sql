@@ -29,3 +29,7 @@ CREATE TABLE penjualan(
 	harga INT ,
 	stok INT
 );
+
+INSERT INTO admin_toko VALUES ("","AHT","hafiz");
+
+SELECT * FROM admin_toko WHERE user_admin = 'AHT' AND pass_admin = 'hafiz'

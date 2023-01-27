@@ -1,78 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Login | Nalika - Material Admin Template</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Login | Al-Likah</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style2.css">
   <!-- favicon
 		============================================ -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
   <!-- Google Fonts
 		============================================ -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet" />
   <!-- Bootstrap CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- Bootstrap CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
   <!-- owl.carousel CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.css">
-  <link rel="stylesheet" href="css/owl.transitions.css">
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/owl.theme.css" />
+  <link rel="stylesheet" href="css/owl.transitions.css" />
   <!-- animate CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animate.css" />
   <!-- normalize CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/normalize.css" />
   <!-- main CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css" />
   <!-- morrisjs CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/morrisjs/morris.css">
+  <link rel="stylesheet" href="css/morrisjs/morris.css" />
   <!-- mCustomScrollbar CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css" />
   <!-- metisMenu CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
-  <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+  <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css" />
+  <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css" />
   <!-- calendar CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
-  <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+  <link rel="stylesheet" href="css/calendar/fullcalendar.min.css" />
+  <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css" />
   <!-- forms CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/form/all-type-forms.css">
+  <link rel="stylesheet" href="css/form/all-type-forms.css" />
   <!-- style CSS
 		============================================ -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <!-- responsive CSS
 		============================================ -->
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/responsive.css" />
   <!-- modernizr JS
 		============================================ -->
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
-  <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
   <div class="color-line"></div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="back-link back-backend">
-          <a href="index.html" class="btn btn-primary">Back to Dashboard</a>
+          <a href="index.php" class="btn btn-primary">Back to HOME</a>
         </div>
       </div>
     </div>
@@ -82,31 +78,34 @@
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
       <div class="col-md-4 col-md-4 col-sm-4 col-xs-12">
         <div class="text-center m-b-md custom-login">
-          <h3 class="judul">PLEASE LOGIN TO APP</h3>
+          <h3 class="judul">PLEASE LOGIN ADMIN TO APP</h3>
           <p class="judul">This is the best app ever!</p>
         </div>
-
         <div class="hpanel">
           <div class="panel-body">
-            <form action="ceklogin.php" method="post" name="login" id="loginForm">
-
+            <form action="ceklogin.php" method="post" id="loginForm">
               <div class="form-group">
-                <label class="control-label" for="username">Username</label>
-                <input type="text" name="username" placeholder="example@gmail.com" title="Please enter you username" required value="" name="username" id="username" class="form-control">
+                <label class="control-label" for="username">Email</label>
+                <input type="email" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control" />
                 <span class="help-block small">Your unique username to app</span>
               </div>
               <div class="form-group">
                 <label class="control-label" for="password">Password</label>
-                <input type="password" name="password" title="Please enter your password" placeholder="******" required value="" name="password" id="password" class="form-control">
+                <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control" />
                 <span class="help-block small">Yur strong password</span>
               </div>
               <div class="checkbox login-checkbox">
                 <label>
-                  <input type="checkbox" required class="i-checks"> Remember me </label>
-                <p class="help-block small">(if this is a private computer)</p>
+                  <input type="checkbox" class="i-checks" required /> Remember me
+                </label>
+                <p class="help-block small">
+                  (if this is a private computer)
+                </p>
               </div>
-              <button class="btn btn-success btn-block loginbtn">Login</button>
-              <a class="btn btn-default btn-block" href="./register.php">Register</a>
+              <button class="btn btn-success btn-block loginbtn">
+                Login
+              </button>
+              <a class="btn btn-default btn-block" href="register.php">Register</a>
             </form>
           </div>
         </div>
@@ -115,7 +114,11 @@
     </div>
     <div class="row">
       <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 text-center">
-        <p class="footer-p">Copyright © 2018 <a href="https://colorlib.com/wp/templates/">Colorlib</a> All rights reserved.</p>
+        <p class="footer-p">
+          Copyright © Ali Hanafiah
+          <a href="https://colorlib.com/wp/templates/">Lubis</a> All rights
+          reserved.
+        </p>
       </div>
     </div>
   </div>

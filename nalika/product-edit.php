@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Product Edit | Nalika - Material Admin Template</title>
+    <title>Tambah Produk | Nalika - Material Admin Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
     <!-- favicon
 		============================================ -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -19,7 +20,7 @@
     <!-- Bootstrap CSS
 		============================================ -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- nalika Icon CSS
+    <!-- nalika Icon CSS
 		============================================ -->
     <link rel="stylesheet" href="css/nalika-icon.css">
     <!-- owl.carousel CSS
@@ -75,33 +76,33 @@
                 <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
                 <strong><img src="img/logo/logosn.png" alt="" /></strong>
             </div>
-			<div class="nalika-profile">
-				<div class="profile-dtl">
-					<a href="#"><img src="img/notification/4.jpg" alt="" /></a>
-					<h2>Lakian <span class="min-dtn">Das</span></h2>
-				</div>
-				<div class="profile-social-dtl">
-					<ul class="dtl-social">
-						<li><a href="#"><i class="icon nalika-facebook"></i></a></li>
-						<li><a href="#"><i class="icon nalika-twitter"></i></a></li>
-						<li><a href="#"><i class="icon nalika-linkedin"></i></a></li>
-					</ul>
-				</div>
-			</div>
+            <div class="nalika-profile">
+                <div class="profile-dtl">
+                    <a href="#"><img src="img/notification/4.jpg" alt="" /></a>
+                    <h2>Lakian <span class="min-dtn">Das</span></h2>
+                </div>
+                <div class="profile-social-dtl">
+                    <ul class="dtl-social">
+                        <li><a href="#"><i class="icon nalika-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon nalika-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon nalika-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
                         <li class="active">
                             <a class="has-arrow" href="index.html">
-								   <i class="icon nalika-home icon-wrap"></i>
-								   <span class="mini-click-non">Ecommerce</span>
-								</a>
+                                <i class="icon nalika-home icon-wrap"></i>
+                                <span class="mini-click-non">Ecommerce</span>
+                            </a>
                             <ul class="submenu-angle" aria-expanded="true">
                                 <li><a title="Dashboard v.1" href="index.html"><span class="mini-sub-pro">Dashboard v.1</span></a></li>
                                 <li><a title="Dashboard v.2" href="index-1.html"><span class="mini-sub-pro">Dashboard v.2</span></a></li>
                                 <li><a title="Dashboard v.3" href="index-2.html"><span class="mini-sub-pro">Dashboard v.3</span></a></li>
                                 <li><a title="Product List" href="product-list.html"><span class="mini-sub-pro">Product List</span></a></li>
-                                <li><a title="Product Edit" href="product-edit.html"><span class="mini-sub-pro">Product Edit</span></a></li>
+                                <li><a title="Product Edit" href="product-edit.html"><span class="mini-sub-pro">Tambah Produk</span></a></li>
                                 <li><a title="Product Detail" href="product-detail.html"><span class="mini-sub-pro">Product Detail</span></a></li>
                                 <li><a title="Product Cart" href="product-cart.html"><span class="mini-sub-pro">Product Cart</span></a></li>
                                 <li><a title="Product Payment" href="product-payment.html"><span class="mini-sub-pro">Product Payment</span></a></li>
@@ -216,18 +217,18 @@
                                     <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
                                         <div class="menu-switcher-pro">
                                             <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
-													<i class="icon nalika-menu-task"></i>
-												</button>
+                                                <i class="icon nalika-menu-task"></i>
+                                            </button>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
                                         <div class="header-top-menu tabl-d-n">
                                             <div class="breadcome-heading">
-												<form role="search" class="">
-													<input type="text" placeholder="Search..." class="form-control">
-													<a href=""><i class="fa fa-search"></i></a>
-												</form>
-											</div>
+                                                <form role="search" class="">
+                                                    <input type="text" placeholder="Search..." class="form-control">
+                                                    <a href=""><i class="fa fa-search"></i></a>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -356,10 +357,10 @@
                                                 </li>
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															<i class="icon nalika-user nalika-user-rounded header-riht-inf" aria-hidden="true"></i>
-															<span class="admin-name">Advanda Cro</span>
-															<i class="icon nalika-down-arrow nalika-angle-dw nalika-icon"></i>
-														</a>
+                                                        <i class="icon nalika-user nalika-user-rounded header-riht-inf" aria-hidden="true"></i>
+                                                        <span class="admin-name">Advanda Cro</span>
+                                                        <i class="icon nalika-down-arrow nalika-angle-dw nalika-icon"></i>
+                                                    </a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
                                                         <li><a href="register.html"><span class="icon nalika-home author-log-ic"></span> Register</a>
                                                         </li>
@@ -643,9 +644,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
                                                                                             <label class="onoffswitch-label" for="example">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -659,9 +660,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
                                                                                             <label class="onoffswitch-label" for="example3">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -675,9 +676,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
                                                                                             <label class="onoffswitch-label" for="example4">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -691,9 +692,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
                                                                                             <label class="onoffswitch-label" for="example7">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -707,9 +708,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example2">
                                                                                             <label class="onoffswitch-label" for="example2">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -723,9 +724,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example6">
                                                                                             <label class="onoffswitch-label" for="example6">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -739,9 +740,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example5">
                                                                                             <label class="onoffswitch-label" for="example5">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -777,7 +778,7 @@
                                                 <li><a href="index-1.html">Dashboard v.2</a></li>
                                                 <li><a href="index-3.html">Dashboard v.3</a></li>
                                                 <li><a href="product-list.html">Product List</a></li>
-                                                <li><a href="product-edit.html">Product Edit</a></li>
+                                                <li><a href="product-edit.html">Tambah Produk</a></li>
                                                 <li><a href="product-detail.html">Product Detail</a></li>
                                                 <li><a href="product-cart.html">Product Cart</a></li>
                                                 <li><a href="product-payment.html">Product Payment</a></li>
@@ -913,19 +914,19 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <div class="breadcomb-wp">
-											<div class="breadcomb-icon">
-												<i class="icon nalika-home"></i>
-											</div>
-											<div class="breadcomb-ctn">
-												<h2>Product Edit</h2>
-												<p>Welcome to Nalika <span class="bread-ntd">Admin Template</span></p>
-											</div>
-										</div>
+                                            <div class="breadcomb-icon">
+                                                <i class="icon nalika-home"></i>
+                                            </div>
+                                            <div class="breadcomb-ctn">
+                                                <h2>Tambah Produk</h2>
+                                                <p>Welcome to Nalika <span class="bread-ntd">Admin Template</span></p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <div class="breadcomb-report">
-											<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="icon nalika-download"></i></button>
-										</div>
+                                            <button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="icon nalika-download"></i></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -943,63 +944,42 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="review-tab-pro-inner">
                                 <ul id="myTab3" class="tab-review-design">
-                                    <li class="active"><a href="#description"><i class="icon nalika-edit" aria-hidden="true"></i> Product Edit</a></li>
+                                    <li class="active"><a href="#description"><i class="icon nalika-edit" aria-hidden="true"></i> Tambah Produk</a></li>
                                     <li><a href="#reviews"><i class="icon nalika-picture" aria-hidden="true"></i> Pictures</a></li>
                                     <li><a href="#INFORMATION"><i class="icon nalika-chat" aria-hidden="true"></i> Review</a></li>
                                 </ul>
                                 <div id="myTabContent" class="tab-content custom-product-edit">
                                     <div class="product-tab-list tab-pane fade active in" id="description">
                                         <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="review-content-section">
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-user" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="First Name">
-                                                    </div>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-edit" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Product Title">
-                                                    </div>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Regular Price">
-                                                    </div>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-new-file" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Tax">
-                                                    </div>
+                                            <div class="col-lg-10 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="review-content-section" id="tengah">
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="icon nalika-favorites" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Quantity">
+                                                        <select name="select" class="form-control pro-edt-select form-control-primary">
+                                                            <option value="opt1">Pilih Kategori Baju</option>
+                                                            <option value="opt2">Dalam Negeri</option>
+                                                            <option value="opt3">Dalam Luar Negeri</option>
+                                                        </select>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="review-content-section">
-                                                    <div class="input-group mg-b-pro-edt">
+                                                    <!-- <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="icon nalika-user" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Last Name">
-                                                    </div>
+                                                        <input type="text" class="form-control" placeholder="First Name" name="nama" min="0" maxlength="3">
+                                                    </div> -->
+
                                                     <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-favorites-button" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Product Description">
+                                                        <span class="input-group-addon"><i class="icon nalika-new-file" aria-hidden="true"></i></span>
+                                                        <input type="text" class="form-control" placeholder="Nama Produk" name="nama-produk">
+                                                    </div>
+
+                                                    <div class="input-group mg-b-pro-edt">
+                                                        <span class="input-group-addon"><i class="icon nalika-edit" aria-hidden="true"></i></span>
+                                                        <input type="text" class="form-control" placeholder="Stok" name="stok">
                                                     </div>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Sale Price">
+                                                        <input type="number" class="form-control" placeholder="Harga Produk" name="harga">
                                                     </div>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="icon nalika-like" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Category">
-                                                    </div>
-                                                    <select name="select" class="form-control pro-edt-select form-control-primary">
-															<option value="opt1">Select One Value Only</option>
-															<option value="opt2">2</option>
-															<option value="opt3">3</option>
-															<option value="opt4">4</option>
-															<option value="opt5">5</option>
-															<option value="opt6">6</option>
-														</select>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1007,15 +987,15 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="text-center custom-pro-edt-ds">
                                                     <button type="button" class="btn btn-ctl-bt waves-effect waves-light m-r-10">Save
-														</button>
+                                                    </button>
                                                     <button type="button" class="btn btn-ctl-bt waves-effect waves-light">Discard
-														</button>
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-tab-list tab-pane fade" id="reviews">
-                                        <div class="row">
+                                        <div class="row" id="posisi">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="review-content-section">
                                                     <div class="row">
@@ -1038,18 +1018,18 @@
                                                                                     <form>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Largest Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Largest Image
+                                                                                            </label>
                                                                                         </div>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Medium Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Medium Image
+                                                                                            </label>
                                                                                         </div>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Small Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Small Image
+                                                                                            </label>
                                                                                         </div>
                                                                                     </form>
                                                                                 </div>
@@ -1057,8 +1037,8 @@
                                                                             <div class="col-lg-6">
                                                                                 <div class="product-edt-remove">
                                                                                     <button type="button" class="btn btn-ctl-bt waves-effect waves-light">Remove
-																							<i class="fa fa-times" aria-hidden="true"></i>
-																						</button>
+                                                                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                                                                    </button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -1087,18 +1067,18 @@
                                                                                     <form>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Largest Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Largest Image
+                                                                                            </label>
                                                                                         </div>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Medium Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Medium Image
+                                                                                            </label>
                                                                                         </div>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Small Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Small Image
+                                                                                            </label>
                                                                                         </div>
                                                                                     </form>
                                                                                 </div>
@@ -1106,8 +1086,8 @@
                                                                             <div class="col-lg-6">
                                                                                 <div class="product-edt-remove">
                                                                                     <button type="button" class="btn btn-ctl-bt waves-effect waves-light">Remove
-																							<i class="fa fa-times" aria-hidden="true"></i>
-																						</button>
+                                                                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                                                                    </button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -1136,18 +1116,18 @@
                                                                                     <form>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Largest Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Largest Image
+                                                                                            </label>
                                                                                         </div>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Medium Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Medium Image
+                                                                                            </label>
                                                                                         </div>
                                                                                         <div class="radio radiofill">
                                                                                             <label>
-																									<input type="radio" name="radio"><i class="helper"></i>Small Image
-																								</label>
+                                                                                                <input type="radio" name="radio"><i class="helper"></i>Small Image
+                                                                                            </label>
                                                                                         </div>
                                                                                     </form>
                                                                                 </div>
@@ -1155,8 +1135,8 @@
                                                                             <div class="col-lg-6">
                                                                                 <div class="product-edt-remove">
                                                                                     <button type="button" class="btn btn-ctl-bt waves-effect waves-light">Remove
-																							<i class="fa fa-times" aria-hidden="true"></i>
-																						</button>
+                                                                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                                                                    </button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -1223,7 +1203,7 @@
                                                         </div>
                                                         <div class="form-group review-pro-edt mg-b-0-pt">
                                                             <button type="submit" class="btn btn-ctl-bt waves-effect waves-light">Submit
-																</button>
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>

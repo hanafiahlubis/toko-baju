@@ -72,7 +72,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="back-link back-backend">
-          <a href="index.html" class="btn btn-primary">Back to Dashboard</a>
+          <a href="index.php" class="btn btn-primary">Back to Login</a>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@
         <div class="hpanel">
           <div class="panel-body">
             <form action="proses.php" method="POST" id="loginForm">
-              <div class="row">
+              <div class="row" style="display: block;">
                 <div class="form-group col-lg-12">
                   <label>Name</label>
                   <input name="name" class="form-control" required>

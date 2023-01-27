@@ -91,6 +91,8 @@ a:active, a:hover {
     outline: 0 none;
 }
 
+
+
 ul {
     list-style: outside none none;
     margin: 0;
@@ -4488,4 +4490,14 @@ th.fc-day-header.fc-widget-header {
     background: #152036;
     border-color: #152036;
     color: #fff;
+}
+
+body>#jarak {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 37.5rem;
+    position: sticky;
+    bottom: 0;
 }

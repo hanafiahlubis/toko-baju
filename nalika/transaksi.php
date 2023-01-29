@@ -19,7 +19,7 @@
                     <span>
 
                         <?php
-                        $data2 = mysqli_query($con, "select * from kategori");
+                        $data2 = mysqli_query($con, "select * from penjualan");
                         echo "Banyak Barang " . mysqli_num_rows($data2);
                         ?>
                     </span>

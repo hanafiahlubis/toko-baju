@@ -326,10 +326,21 @@ echo $pilih_k;
 $stok_k = $_POST['stok-berkurang'];
 
 if (isset($_POST['pesan'])) {
+    if ($stok_k <= $stok) {
 ?>
-    <script type="text/javascript">
-        window.location.href = "?halaman=transaksi&&pesan=a&&id=<?php echo $id; ?>&&stok=<?php echo $stok_k; ?>";
-    </script>
+        <script type="text/javascript">
+            window.location.href = "?halaman=transaksi&&pesan=a&&id=<?php echo $id; ?>&&stok=<?php echo $stok_k; ?>";
+        </script>
+
+    <?php
+    } else {
+    ?>
+        <script type="text/javascript">
+            alert("Maaf Stok kurang");
+            window.location.href = "?";
+        </script>
+
 <?php
+    }
 }
 ?>

@@ -10,7 +10,7 @@
                     <span>
 
                         <?php
-                        $data2 = mysqli_query($con, "select * from kategori");
+                        $data2 = mysqli_query($con, "select * from penjualan");
                         echo "Banyak Barang " . mysqli_num_rows($data2);
                         ?>
                     </span>
@@ -87,8 +87,8 @@
                     <th scope='row'><?php echo $i; ?></th>;
                     <td><?php echo $tmp['nama_baju']; ?></td>
                     <td><?php echo  $tmp['stok_terjual']; ?></td>
-                    <td><?php echo  $tmp['harga']; ?></td>
-                    <td><?php echo  $tmp['total_terjual']; ?></td>
+                    <td><?php echo  "Rp." . $tmp['harga']; ?></td>
+                    <td><?php echo "Rp." .  $tmp['total_terjual']; ?></td>
                     <td><a onclick="return confirm('Anda Yakin Akan Menghapus Data ini ... ??')" href="?halaman=pembukuan&&aksi=Delete&id=<?php echo $tmp['id']; ?>" class="tombol">Hapus</a>
                     </td>
                 </tr>

@@ -105,7 +105,6 @@
               <button class="btn btn-success btn-block loginbtn">
                 Login
               </button>
-              <a class="btn btn-default btn-block" href="register.php">Register</a>
             </form>
           </div>
         </div>

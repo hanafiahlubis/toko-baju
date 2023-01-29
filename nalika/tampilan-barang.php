@@ -18,7 +18,7 @@
                     <span>
 
                         <?php
-                        $data2 = mysqli_query($con, "select * from kategori");
+                        $data2 = mysqli_query($con, "select * from penjualan");
                         echo "Banyak Barang " . mysqli_num_rows($data2);
                         ?>
                     </span>
@@ -98,7 +98,7 @@
                     <td><img src="photo/<?php echo $tmp['gambar']; ?>" class="img" alt=""></td>
                     <td><?php echo  $tmp['ukuran']; ?></td>
                     <td><?php echo  $tmp['stok']; ?></td>
-                    <td><?php echo  $tmp['harga']; ?></td>
+                    <td><?php echo "RP. " . $tmp['harga']; ?></td>
                     <td><a href="?halaman=barang&&aksi=update&&id=<?php echo $tmp['id']; ?>" class="tombol tambah">EDIT</a></td>
                     <td><a class="tombol tambah" onclick="return confirm('Anda Yakin Akan Menghapus Data ini ... ??')" href="?halaman=barang&&aksi=Delete&id=<?php echo $tmp['id']; ?>&&gambar=<?php echo $tmp['gambar']; ?>" class="tombol">Hapus</a>
                     </td>

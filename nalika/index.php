@@ -90,7 +90,7 @@ if (empty($_SESSION['nama_user123']) and empty($_SESSION['kata_kunci123'])) {
       </div>
       <div class="nalika-profile">
         <div class="profile-dtl">
-          <a href="index.php"><img src="photo/admin-edit.jpeg" alt="tidak di temukan" /></a>
+          <a href="index.php"><img src="photo/admin2.jpg" alt="tidak di temukan" /></a>
           <h2> <span class="min-dtn">A D M I N </span></h2>
         </div>
         <div class="profile-social-dtl">

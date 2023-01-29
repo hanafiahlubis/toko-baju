@@ -1,35 +1,37 @@
 CREATE DATABASE toko_baju2;
 USE toko_baju2;
-
 CREATE TABLE admin_toko(
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	user_admin VARCHAR(30),
 	pass_admin VARCHAR(30)
 );
-CREATE TABLE user_pembeli(
-	id INT AUTO_INCREMENT PRIMARY KEY,
-	nama VARCHAR(30),
-	email VARCHAR(30),
-	user_pem VARCHAR(30),
-	pass_pem VARCHAR(30)
-);
 
-CREATE TABLE pembukuan(
+INSERT INTO admin_toko VALUES ("","hafiz1970@gmail.com","PUB20");
+
+CREATE OR REPLACE TABLE pembukuan(
 	id INT AUTO_INCREMENT PRIMARY KEY,
-	nama_barang VARCHAR(100),
+	nama_baju VARCHAR(100),
+	stok_terjual INT,
 	harga INT,
-	stok INT,
-	total_terjual INT,
-	stok_berkurang INT
+	total_terjual INT
 );
-
-CREATE TABLE penjualan(
+CREATE OR REPLACE TABLE kategori(
+	id_kategori INT AUTO_INCREMENT PRIMARY KEY,
+	ukuran VARCHAR(3)
+);
+INSERT INTO kategori VALUES
+('','S'),('','M'),('','L'),('','XL');
+CREATE OR REPLACE TABLE penjualan(
 	id INT AUTO_INCREMENT PRIMARY KEY,
-	nama_barang VARCHAR(100),
+	nama_baju VARCHAR(100),
 	harga INT ,
-	stok INT
+	stok INT,
+	pilih_kategori INT,
+	gambar VARCHAR(300),
+	CONSTRAINT fk_penjualan FOREIGN KEY (pilih_kategori) REFERENCES kategori(id_kategori) 
 );
 
-INSERT INTO admin_toko VALUES ("","AHT","hafiz");
-
-SELECT * FROM admin_toko WHERE user_admin = 'AHT' AND pass_admin = 'hafiz'
+INSERT INTO penjualan VALUES
+("","ayana","180000",250,2,"ayana.jpg"),
+("","Gamis + Hijab","150000",280,1,"baju gamis.jpg"),
+("","Baju Adat Aceh","580000",450,2,"baju-adat-aceh.jpg");

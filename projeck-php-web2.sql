@@ -15,7 +15,12 @@ CREATE OR REPLACE TABLE pembukuan(
 	harga INT,
 	total_terjual INT
 );
-
+CREATE OR REPLACE TABLE kategori(
+	id_kategori INT AUTO_INCREMENT PRIMARY KEY,
+	ukuran VARCHAR(3)
+);
+INSERT INTO kategori VALUES
+('','S'),('','M'),('','L'),('','XL');
 CREATE OR REPLACE TABLE penjualan(
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	nama_baju VARCHAR(100),
@@ -25,9 +30,8 @@ CREATE OR REPLACE TABLE penjualan(
 	gambar VARCHAR(300),
 	CONSTRAINT fk_penjualan FOREIGN KEY (pilih_kategori) REFERENCES kategori(id_kategori) 
 );
-CREATE OR REPLACE TABLE kategori(
-	id_kategori INT AUTO_INCREMENT PRIMARY KEY,
-	ukuran VARCHAR(3)
-);
-INSERT INTO kategori VALUES
-('','S'),('','M'),('','L'),('','XL');
+
+INSERT INTO penjualan VALUES
+("","ayana","180000",250,2,"ayana.jpg"),
+("","Gamis + Hijab","150000",280,1,"baju gamis.jpg"),
+("","Baju Adat Aceh","580000",450,2,"baju-adat-aceh.jpg");
